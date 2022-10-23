@@ -103,11 +103,14 @@ a{
     left: 0;
     text-align: center;
     background-color: rgb(59, 105, 150,0.95);
-    height: 45vh;
+    /* height: 45vh; */
     display: none;
 }
+#mobile-nav .mobile-socials{
+    padding: 20px 0;
+}
 #mobile-nav ul li {
-    padding: 10px 0;
+    padding: 15px 0;
     list-style: none;
 }
 #mobile-nav ul li a {
@@ -124,6 +127,7 @@ a{
     background-color: #3B6996;
     gap: 10px;
     color: #fff;
+    max-height: 480px;
     height: max-content;
 }
 #home-container #write-up button{
